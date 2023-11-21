@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+   <h1>LISTAS EM HTML</h1> 
+<p>Las listas en html nos permite crear conjuntos de elementos en forma de lista dentro de una página. Tenemos dos tipos de listas, ordenadas y desordenadas. Te explicaremos las dos a seguir.</p>
+<h2>LISTAS ORDENADAS: </h2>
+<p>Las listas ordenadas puedan comenzar con el número 1 y continuar por el 2,3,4, etc. También puede empezar por letras como A, B, C, D, etc.
+Las listas ordenadas en HTML se representan mediante el elemento OL("Ordered List").
+<p>&lt;ol&gt; ... &lt;/ol&gt;</p>
+</p>
+<p>Cada uno de los elementos de la lista ordenada se representará mediante el elemento &lt;li&gt;.</p>
+
+<p>
+&lt;ol&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  &lt;li&gt;Ejercicio01 &lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  &lt;li&gt; Ejercicio02 &lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  &lt;li&gt; Ejercicio03 &lt;/li&gt; <br>
+&lt;/ol&gt;
+</p>
+
+<!-- <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;ol&gt;</span>
+  <span class="nt">&lt;li&gt;</span>Julio<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;</span>Carmen<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;</span>Ignacio<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;</span>Elena<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ol&gt;</span>
+</code></pre></div></div> -->
+
+<p>Ese sería el resultado:</p>
+<ol>
+  <li>Ejercicio01 </li>
+  <li> Ejercicio02 </li>
+  <li> Ejercicio03 </li>
+</ol>
+
+
+<h2>EMPIECE POR EL NUMERO QUE QUEREIS:</h2>
+<p>Puedes empezar la lista con el numero que elijas, para eso solo necesita utilizar start. </p>
+<p>&lt;ol start="numero"&gt; ... &lt;/ol&gt;</p>
+<p>De esto modo, se quieres empezar por el número 3, tiene que escribir el siguiente código.</p>
+<p>
+&lt;ol start="3"&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  &lt;li&gt; Ejercicio01 &lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  &lt;li&gt; Ejercicio02 &lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  &lt;li&gt; Ejercicio03 &lt;/li&gt; <br>
+&lt;/ol&gt;
+</p>
+<p>Quedaría de este modo:</p>
+<ol start="3">
+  <li> Ejercicio01 </li>
+  <li> Ejercicio02 </li>
+  <li> Ejercicio03 </li>
+</ol>
+
+<h3>UTILIZANDO EL TYPE</h3>
+<p>Utilizamos el type para elegimos el tipo de lista ordenada que queremos, entre los tipos de listas que podemos utilizar tenemos:</p>
+<p>1 - Listas decimales</p>
+<p>a - Listas alfabéticas en minúsculas</p>
+<p>A - Listas alfabéticas en mayúsculas</p>
+<p>i - Listas de números romanos en minúsculas</p>
+<p>I - Listas de números romanos en mayúsculas</p>
+
+<h3>UTILIZANDO EL TYPE CON LETRAS</h3>
+<p>Si queremos que nuestra lista aparezca ordenada mediante letras en mayúscula escribimos lo siguiente:</p>
+<p>
+&lt;ol type="A"&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  &lt;li&gt;nabelle &lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  &lt;li&gt;eatriz&lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  &lt;li&gt;arolina&lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  &lt;li&gt;ona Luiza&lt;/li&gt; <br>
+&lt;/ol&gt;
+</p>
+<p>La salida se vería de esta manera:</p>
+
+<ol type="A">
+  <li>nabelle </li>
+  <li>eatriz</li>
+  <li>arolina</li>
+  <li>ona Luiza</li>
+</ol>
+
+<h3>UTILIZANDO EL TYPE CON NÚMEROS ROMANOS </h3>
+<p>Si deseamos que nuestra lista aparezca ordenada mediante números romanos, utilizaremos el valor “I” para una lista ordenada con números romanos.</p>
+<p>
+&lt;ol type="I"&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  &lt;li&gt;Ejercicio01&lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  &lt;li&gt;Ejercicio02&lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  &lt;li&gt;Ejercicio03&lt;/li&gt; <br>
+&lt;/ol&gt;
+</p>
+
+<p>Así se vería la salida:</p>
+<ol type="I">
+  <li>Ejercicio01</li>
+  <li>Ejercicio02</li>
+  <li>Ejercicio03</li>
+</ol>
+
+<h2>LISTAS DESORDENADAS:</h2>
+<p>
+  Para las listas desordenadas es un poco distinto y utilizamos a etiqueta &lt;ul&gt; ("unordered list"). 
+  <br>
+  Ellas son necesarias caso necesitamos mostrar elementos listados sin ningún tipo de ordenen simplemente precedidos por una viñeta que puede ser un punto, un cuadrado, etc. Veremos a seguir.
+  Para representar los elementos de la lista desordenada utilizamos el mismo elemento que con las listas ordenadas, es decir, el elemento li.
+</p>
+<p>
+&lt;ul&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  &lt;li&gt;Ejercicio01 &lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  &lt;li&gt;Ejercicio02 &lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  &lt;li&gt;Ejercicio03 &lt;/li&gt; <br>
+&lt;/ul&gt;
+</p>
+<ul>
+  <li>Ejercicio01 </li>
+  <li>Ejercicio02 </li>
+  <li>Ejercicio03 </li>
+</ul>
+
+<h3>UTILIZANDO EL TYPE </h3>
+<p>
+  En el caso de las listas desordenadas la etiqueta &lt;type&gt; sería utilizada para poner estilos , como por ejemplo:
+</p>
+<p>
+&lt;style type=”text/css”&gt; <br>
+ul { <br>
+&nbsp;&nbsp;&nbsp;  list-style-type: circle; <br>
+} <br>
+&lt;/style&gt;
+</p>
+
+<h2>LISTAS DE DESCRIPCIÓN HTML</h2>
+<p>
+  La Description List es utilizada para el caso de que quieras definir una lista para describir algo, por ejemplo. Primero tendríamos un término de descripción que seria un &lt;dl&gt; en seguida tendríamos la descripción que sería la etiqueta &lt;dt&gt;.
+  Veamos con el código:
+</p>
+<p>
+&lt;dl&gt; <br>
+&nbsp;&nbsp;  &lt;dt&gt;Coding&lt;/dt&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &lt;dd&gt;An activity to keep you happy, even in sleep.&lt;/dd&gt; <br> 
+&nbsp;&nbsp;  &lt;dt&gt;Gossiping&lt;/dt&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &lt;dd&gt;Can't live without it.&lt;/dd&gt; <br>
+&nbsp;&nbsp;  &lt;dt&gt;Sleeping&lt;/dt&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &lt;dd&gt;My all time favorite.&lt;/dd&gt; <br>
+&lt;/dl&gt;
+</p>
+Así se vería la salida:
+
+<dl>
+  <dt>Coding</dt>
+      <!-- Programación -->
+  <dd>An activity to keep you happy, even in sleep.</dd>
+      <!-- Una actividad para mantenerte feliz, incluso mientras duermes. -->
+  <dt>Gossiping</dt>
+      <!-- Chismorreo -->
+  <dd>Can't live without it.</dd>
+      <!-- No puedo vivir sin el. -->
+  <dt>Sleeping</dt>
+      <!-- Dormir -->
+  <dd>My all time favorite.</dd>
+      <!-- Mi favorito de todos los tiempos. -->
+</dl>
+
+
+<h2>LISTAS ANIDADAS</h2>
+<p>
+  Las listas anidadas serian una lista dentro de la otra, siendo ella ordenada o desordenada como aprendemos antes. Un aviso, en estas listas los desenvolvedores deben estar muy atentos con la etiqueta del código.
+</p>
+<p>
+  Te enseñaremos dos ejemplos:
+</p>
+<h3>EJEMPLO 1</h3>
+<p>
+&lt;ul&gt; <br>
+&nbsp;&nbsp;  &lt;li&gt;Elemento 1&lt;/li&gt; <br>
+&nbsp;&nbsp;  &lt;li&gt;Elemento 2&lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;  &lt;li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &lt;ol&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      &lt;li&gt;Elemento 2.1&lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;     &lt;li&gt;Elemento 2.2&lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;     &lt;li&gt;Elemento 2.N&lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &lt;/ol&gt; <br>
+&nbsp;&nbsp;&nbsp;  &lt;/li&gt; <br>
+&nbsp;&nbsp;  &lt;li&gt;Elemento 3&lt;/li&gt; <br>
+&nbsp;&nbsp;  &lt;li&gt;Elemento N&lt;/li&gt; <br>
+&lt;/ul&gt; <br>
+</p>
+
+<ul>
+  <li>Elemento 1</li>
+  <li>Elemento 2</li>
+   <li>
+      <ol>
+        <li>Elemento 2.1</li>
+         <li>Elemento 2.2</li>
+         <li>Elemento 2.N</li>
+      </ol>
+   </li>
+  <li>Elemento 3</li>
+  <li>Elemento N</li>
+</ul>
+
+<h3>EJEMPLO 2</h3>
+<p>
+&lt;ul&gt; <br>
+  &lt;li&gt;Carnívoro <br>
+  	&lt;ul&gt; <br>
+  		&lt;li&gt;León&lt;/li&gt; <br>
+  		&lt;li&gt;Buitre&lt;/li&gt; <br>
+  		&lt;li&gt;Hiena&lt;/li&gt; <br>
+  	&lt;/ul&gt;  <br>
+  &lt;/li&gt; <br>
+  &lt;li&gt;Herbívoro <br>
+  	&lt;ul&gt; <br>
+  		&lt;li&gt;Cabra&lt;/li&gt; <br>
+  		&lt;li&gt;Vaca&lt;/li&gt; <br>
+  	&lt;/ul&gt; <br>
+  &lt;/li&gt; <br>
+  &lt;li&gt;Omnívoro <br>
+  	&lt;ul&gt; <br>
+  		&lt;li&gt;Oso&lt;/li&gt; <br>
+  		&lt;li&gt;Urraca&lt;/li&gt; <br>
+  	&lt;/ul&gt; <br>
+  &lt;/li&gt;<br>
+&lt;/ul&gt; <br>
+</p>
+
+    
+</body>
+</html>

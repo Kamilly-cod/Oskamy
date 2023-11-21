@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enlaces</title>
+</head>
+<body>
+    <h1>Enlaces en HTML</h1>
+<p>INTRODUCIÓN:
+    Comúnmente conocidos como "enlaces HTML", o "a href link" esa función es fundamental para permitir que los usuarios "viajen" de una página a otra, también es útil para hacer con que un elemento de una página se conecte con otra como veremos a seguir. Otra utilidad de esa heramienta seria hacernos secciones en la página (como un índice) y eso hace con que el usuario pueda "viajar" entre las secciones que desee para ir justamente en lo que el desee y no neesite leer la página entera para entender un asunto.
+
+</p>
+<h2>CONECTANDO UN CSS </h2>
+<p>
+     CSS se llama lenguaje de hojas de estilo en cascada y se utiliza para diseñar elementos escritos en un lenguaje de marcado como HTML. Para usarlo, podemos poner la etiqueta de &lt;style&gt; en &lt;head&gt;, o crear una página y la interconectar con HTML, como veremos a continuación: 
+     <br>
+<p>&lt;link rel="Stylesheet" href="style.css"&gt;</p>
+    
+</p>
+<h2>CONECTANDO UN JAVA SCRIPT </h2>
+
+<p>JavaScript surgió como una tecnología del lado del navegador para hacer que las aplicaciones web sean más dinámicas. Para usar esa herramienta, podemos poner la etiqueta &lt;script&gt; en &lt;head&gt;, o podemos crear una página y la intercactar con HTML, como veremo a la continuación.
+    <br>
+    &lt;script src="./script.js"&gt;&lt;/script&gt;
+</p>
+
+<h2>FORMA GENERAL DE UN ENLACE</h2>
+<p>
+    Para insertar un link en un texto HTML se utiliza el comando 
+    &lt;A&gt; (de <i>anchor</i>). <br>
+    Posteriomente, para complementar el código y crear hipervínculos en sitios web utilizamos el href.
+    <br>
+    &lt;a href="URLDeLaPagina.html"&gt;Hypervínculo&lt;/a&gt;
+    <br><br>
+    Y se verá como 
+    <a href="otra_pagina.html"> Este es un link </a>
+<br>
+<br>
+</p>
+
+<h2>EMAIL TO: ENVIO DE EMAIL</h2>
+<p>
+    También tiene la posibilidad de enviar un email para la dirección indicada, Por ejemplo:
+</p>
+<p>
+    &lt;a href="mailto:ahevia@mi.direccion.de.email"&gt;Enviame un mail! 
+    &lt;/a&gt;
+</p>
+<p>
+    La salida seria esa:
+</p>
+<p> <a href="mailto:ahevia@mi.direccion.de.email">Enviame un email! </a> </p>
+
+<h2>LINKS LOCALES</h2> 
+
+
+<p>
+    Los enlaces locales son aquellos que se vinculan a otras partes del sitio web através de difererentes secciones, es como se fuera el sumario de un libro, se un usuario quire ir para el "Capitulo 1"o "Capitulo 2" el apenas clica en uno de eses hiperlinks que estan en la página y van directamiente a esa seción.
+
+<br>
+
+<p>&lt;a href="#Capítulo 1 "&gt;Capítulo 1&lt;/a&gt;</p>
+
+Lo cual se ve como
+<p><a href="#Capítulo1"> Capítulo 1</a></p>
+
+</p>
+<h2>LINK POR ID:</h2>
+<p>Link para el momento de vincular una página a otra usando el id, es útil porque tendríamos menos código que ejecutar, teniendo una mejor visualización.</p>
+<p>&lt;a href “#ejemplo01”&gt;Ejemplo01&lt;/a&gt;  </p>
+<p>Y en el caso tendría que tener un id a donde quieres enlazar el código anterior, sería algo como eso: </p>
+<p>&lt;h1 id=”#ejemplo01”&gt;Ejemplo01&lt;/h1&gt;</p>
+<p>Aquí es donde pones en el id el enlace de referencia que habías creado antes. </p>
+ 
+<h2>LINK POR HREF:</h2>
+<p>Link para el momento de vincular una página a otra usando el href, este sería otro método donde el desarrollador podría ver a qué página ingresaría el usuario.
+El inicio sería el mismo que el ejemplo anterior:</p>
+<p>&lt;a href “#ejemplo02”&gt;Ejemplo02&lt;/a&gt; </p>
+<p>Pero la diferencia sería para vincular una página a otra, con href sería así:</p>
+<p> &lt;a name="#ejemplo02" href="http://127.0.0.1:3000/Document/index.html"&gt;&lt;/a&gt; </p>
+
+
+
+    
+</body>
+</html>

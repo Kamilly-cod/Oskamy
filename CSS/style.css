@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Kanit:ital,wght@1,300&family=Smooch+Sans&display=swap');
+:root {
+    --cor-fundo : #312d2d;
+    --cor-hover : rgb(51, 125, 160);
+    --cor-primaria : #312d2d;
+}
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+   /* font-family: 'Kanit', sans-serif;
+    font-family: 'Smooch Sans', sans-serif;*/
+
+
+}
+
+.menu-h ul {
+    list-style: none;
+    padding: 0;
+    background-color: black;
+
+}
+.menu-h ul li{
+    display: inline;
+    position: relative;
+    
+}
+.menu-h ul li a{
+    color: whitesmoke;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+
+}
+.menu-h ul li a:hover {
+    background-color: rgb(24,139,233) ;
+
+}
+/* Que bagunca */
+
+.menu-h ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+    width: 150px;
+
+   
+}
+.menu-h ul li:hover ul {
+    display: block;
+
+}
+
+
+.menu-h ul ul li a {
+    display: block;
+
+}
